@@ -44,13 +44,6 @@ section{
     border-radius: 5px;
     
 }
-.dream{
-    background-image: url("images/dream-bg.png");
-    background-repeat: no-repeat;
-    background-position: right;
-
-   
-}
 .single-experience{
 
     box-shadow: 10px 10px 40px gray;
@@ -59,10 +52,9 @@ section{
     background-color: white;
 }
 .experiences{
-
-    background-image: url("images/exp-bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
+    background-color: aqua;
+    
+    
     
 }
 #full-stack{
