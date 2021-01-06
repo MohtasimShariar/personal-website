@@ -127,11 +127,11 @@ section{
 .left h2{
     color: whitesmoke;
 }
-.right{
+.right {
     float: right;
-    padding: 100px 10px ;
-    margin-right: 30px;
-    margin-top: 20px;
+    padding: 100px 10px;
+    margin-right: 35px;
+    margin-top: 10px;
 }
 .right a{
 
@@ -148,7 +148,43 @@ section{
     
 
 
-footer p{
+footer{
+    background:;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    
+}
+.social-content{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
+}
+.social-content h2{
+    color: #696969;
+    font-size: 30px;
+    font-weight: 300px;
+}
+.social-content h3{
+    color: #696969;
     font-size: 20px;
+    line-height: 0ch;
+}
+
+.social img{
+
+    width: 40px;
+    padding: 10px;
+}
+footer ul{list-style-type: none;
+margin: 0px;
+padding: 5px;
+overflow: hidden;
+}
+footer  li{
+    display: inline-block;
+    list-style-type: none;
 }
