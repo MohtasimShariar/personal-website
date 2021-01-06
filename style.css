@@ -9,6 +9,7 @@ ul {
     padding: 30px;
     overflow: hidden;
     background-color:white;
+    
   }
   
   li {
@@ -17,28 +18,33 @@ ul {
   
   li a {
     display: block;
-    color:black;
+    
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-weight: 700;
+    color: #696969;
+    font-size: 20px;
 
   }
 
 h1{
+    color: #696969;
     font-size: 50px;
     line-height: 35px;
 }
 h2{
+    color: #696969;
     font-size: 40px;
     line-height: 35px;
 }
 h3{
+    color: #696969;
     font-size: 20px;
     line-height: 35px;
 }
 p{
-    color: dimgray;
+    color: #696969;
     line-height: 1.1;
 }
 .namehilight{
@@ -69,6 +75,8 @@ section{
     border-radius: 5px;
     
 }
+
+
 .box{
 
     box-shadow: 10px 10px 40px gray;
@@ -89,25 +97,34 @@ section{
 .working-project h2{
     text-align: center;
     padding-top: 20px;
+    color: #696969;
 }
-#box1{
 
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightsalmon,tomato);
-  
+
+.cbox{
+
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 50%;
+    width:15%;
+    background-color: white;
+    
 }
-#box2{
+.cbox img{
 
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue,cyan);
-   
-
+    width: 170px;
 }
-#box3{
-
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue,cyan);
+.complete-project{
+    background-color:#00bcd426;
+      
 }
+.complete-project h2{
+    text-align: center;
+    padding-top: 20px;
+    color: #696969;
+}
+
+
 
 .down-banner{
     height: 300px;
@@ -149,43 +166,49 @@ section{
     
 
 
+
 footer{
     
     height: auto;
-    width: 100vw;
+    width: 100%;
     padding-top: 40px;
     
 }
 .social-content{
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+    margin: auto;
+    width: 17%;
+    padding: 10px;
 }
 .social-content h2{
     color: #696969;
     font-size: 30px;
-    font-weight: 300px;
+    font-weight: 400px;
 }
 .social-content h3{
     color: #696969;
+    width: 70%;
+    margin: auto;
     font-size: 20px;
-    line-height: 0ch;
+    
 }
 
 .social img{
 
-    width: 40px;
+    width: 20px;
     padding: 10px;
+    height: 45px;
+    
 }
-footer ul{list-style-type: none;
-margin: 0px;
-padding: 5px;
-overflow: hidden;
+footer div{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
 }
 footer  li{
     display: inline-block;
     list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
