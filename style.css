@@ -110,7 +110,8 @@ section{
 }
 
 .down-banner{
-
+    height: 300px;
+     width: 700px;
     padding: 100px 10px ;
     background-image: url("shapes/Group_33094_1.png");
     background-repeat: no-repeat;
@@ -149,7 +150,7 @@ section{
 
 
 footer{
-    background:;
+    
     height: auto;
     width: 100vw;
     padding-top: 40px;
