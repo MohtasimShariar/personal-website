@@ -107,17 +107,8 @@ section{
 
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue,cyan);
-   
-
-
 }
-#work-inquiry{
 
-    color: white;
-    text-align: center;
-    padding-top: 140px;
-    padding-right: 350px;
-}
 .down-banner{
 
     padding: 100px 10px ;
@@ -145,7 +136,7 @@ section{
 .right a{
 
     width: 150px;
-    background-color: tomato;
+  
     
 }
 
